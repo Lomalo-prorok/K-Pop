@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0 auto;
     scroll-behavior: smooth;
 }
 
@@ -18,6 +18,11 @@ background-image: url(./img/Rectangle\ 10.png), url(./img/Rectangle\ 12.png);
 background-repeat: no-repeat;
 background-color:transparent;
 background-size: 100%;
+}
+
+.page{
+    margin: 0 auto;
+    width: 1440px;
 }
 
 #logo{
@@ -864,9 +869,8 @@ margin-left: 100px;
     position: absolute;
 width: 1090px;
 height: 140px;
-left: 177px;
 top: 650px;
-
+margin-left: 175px;
 background: #242565;
 box-shadow: 0px 10px 50px rgba(61, 55, 241, 0.25);
 border-radius: 20px;
